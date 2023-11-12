@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.sector-text {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    fill: #ffffff;
+    text-anchor: middle;
+    stroke: none;
+}
+
+#svg-container {
+    text-align: center;
+    cursor: pointer;
+}
+#sector1:hover {
+    fill-opacity: 0.7;
+}
+#sector2:hover {
+    fill-opacity: 0.7;
+}
+
+#info-button {
+    display: none;
+    margin-top: 20px;
+}
